@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Yellowtail";
+    overflow-x: hidden;
+  }
+}
+html{
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Roboto", "sans-serif";
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+ul,
+ol {
+  list-style: none;
+
+}
+a {
+  text-decoration: none;
+}
